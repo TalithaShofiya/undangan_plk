@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body class="lock-scroll">
+    <div class="main-background"></div>
+    <div class="main-container">
+        <div class="content">
+
+            <div class="content-container" id="opening">
+                <div class="content-main-wrap">
+                    <div class="content-main">
+                        <div class="hearts-container"></div>
+                        <div class="content-wrap">
+                            <div class="content-inside">
+                                <div class="title-container">
+                                    <img src="assets/Happy Birthday To You(4).svg" alt="title" draggable="false">
+                                </div>
+
+                                <div class="profile-wrap">
+                                    <div class="profile-picture-container">
+                                        <img src="image/placeholder.jpeg" alt="avatar" draggable="false">
+                                    </div>  
+                                <div class="name">Nama</div>
+                            </div>
+
+                            <div class="guest-information-wrap">
+                                <div id="guest-information" style="font-size: 17px;">
+                                    <p style="margin-bottom: 2px;">Dear,</p>
+                                    <span>Guest</span>
+                                </div>
+                                <a href="#profile" class="btn" id="btnBuka" onclick="tampilkanNavbar()">Open Invitation</a>
+                                <script src="script/button.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="content-container" id="profile">
+                <div class="content-main-wrap">
+                    <div class="content-main">
+                        <div class="hearts-container"></div>
+                        <div class="content-inside">
+                            <div class="profile-content">
+                                <div class="information">
+                                    <p>You're invited to</p>
+                                    <p style="margin-top: 10px; font-size: 24px;">Nama's</p>
+                                    <p style="font-size: 50px;">10th</p> 
+                                    <p>birthday party</p>
+                                </div>
+
+                                <div class="profile-wrap" style="margin-top: 15px;">
+                                    <div class="profile-picture-container" style="margin-bottom: 10px;">
+                                        <img src="image/placeholder profile.jpeg" alt="avatar" draggable="false" style="border-radius: 150px 150px 0px 0px; height: 280px;">
+                                    </div>
+
+                                    <div class="name-information">
+                                        <p>Nama Orang</p>
+                                        <p>Daughter of Mr. Abababn and Ms. Owjopjm</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-container" id="event">
+                <div class="content-main-wrap">
+                    <div class="content-main">
+                        <div class="hearts-container"></div>
+                        <div class="content-inside">
+                            <div class="information">
+                                <span>Save the date!</span>
+                                <div class="date" style="margin-bottom: 5px;">
+                                    <span>Saturday</span>
+                                    <span>16</span>
+                                    <span>Oct</span>
+                                    <span>2025</span>
+                                    <span>16.00 Wita</span>
+                                </div>
+
+                                <div class="container-countdown">
+                                    <div class="countdown text">
+                                    <div class="time" id="hari">00<br> <p>Day(s)</p></div>
+                                    <div class="time" id="jam">00<br> <p>Hour(s)</p></div>
+                                    <div class="time" id="menit">00<br> <p>Minute(s)</p></div>
+                                    <div class="time" id="detik">00<br> <p>Second(s)</p></div>
+                                </div>
+
+                                <script src="script/countdown.js"></script>
+
+                                <span style="margin-bottom: 10px;">Event Venue</span>
+                                <span>Duta Mall</span>
+                                <span>Jl. A. Yani No.98, Melayu, Kec. Banjarmasin Tengah, Kota Banjarmasin, Kalimantan Selatan 70232</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-container" id="maps">
+                <div class="content-main-wrap">
+                    <div class="content-main">
+                        <div class="hearts-container"></div>
+                        <div class="content-inside">
+                            <div class="information">
+                                <p>Address</p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.109871585514!2d114.60056107497181!3d-3.3230202966517877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de423e5bffd2075%3A0x91eb1e2406366f9a!2sDuta%20Mall%20Banjarmasin!5e0!3m2!1sen!2sid!4v1758365356609!5m2!1sen!2sid" width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <span style="display: block;">Duta Mall<br>Jl. A. Yani No.98, Melayu, Kec. Banjarmasin Tengah, Kota Banjarmasin, Kalimantan Selatan 70232</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-container" id="gallery">
+                <div class="content-main-wrap">
+                    <div class="content-main">
+                        <div class="hearts-container"></div>
+                        <div class="content-inside">
+                            <div class="information">
+                                <p style="margin-bottom: 10px;">Gallery</p>
+                                <div class="gallery-container">
+                                    <img src="image/placeholder profile.jpeg" alt="img1" draggable="false" class="gambar">
+                                    <img src="image/placeholder profile.jpeg" alt="img2" draggable="false"class="gambar">
+                                    <img src="image/placeholder profile.jpeg" alt="img3" draggable="false" class="gambar">
+                                    <img src="image/placeholder profile.jpeg" alt="img4" draggable="false" class="gambar">
+                                    <img src="image/placeholder profile.jpeg" alt="img5" draggable="false" class="gambar">
+                                    <img src="image/placeholder profile.jpeg" alt="img6"draggable="false" class="gambar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-container" id="rsvp">
+                <div class="content-main-wrap">
+                    <div class="content-main">
+                        <div class="hearts-container"></div>
+                        <div class="content-inside">
+                            <div class="information">
+                                
+                                <div class="container-rsvp">
+                                    <span style="text-align: center;">RSVP</span>
+                                    <form id="rsvpForm">
+                                        <input type="hidden" id="id" name="id"/>
+
+                                        <label for="name">Nama:</label>
+                                        <input type="text" id="name" name="name" required><br>
+
+                                        <label for="jumlah">Jumlah tamu:</label>
+                                        <input type="number" id="jumlah" name="jumlah" required><br>
+
+                                        <label for="attendance">Kehadiran:</label>
+                                        <select id="attendance" name="attendance" required>
+                                            <option value="hadir">Hadir</option>
+                                            <option value="tidak_hadir">Tidak Hadir</option>
+                                        </select><br>
+
+                                        <label for="komentar">Komentar:</label>
+                                        <input type="text" id="komentar" name="komentar" required><br>
+                                        <button type="submit" class="submit btnSend">Kirim</button>
+                                    </form>
+                                </div>
+
+                                <button class="btnSend" type="button" onclick="showRSVP()" style="margin-top: 10px;">Tampilkan respon RSVP</button>
+                                <script src="script/rsvp.js"></script>
+
+                                <div class="gift">
+                                    <div class="button-gift">
+                                        <button class="btnSend" type="button" onclick="showCashless()">Cashless</button>
+                                        <button class="btnSend" type="button" onclick="showOffline()">Offline</button>
+                                    </div>
+
+                                    <div id="cashless" style="display: none; margin-top:10px;" class="cashless-grid">
+                                        <div class="cashless-item">
+                                            <img src="assets/BANK_BRI_logo.svg" alt="BRI">
+                                            <p>1234567890<br>a.n Nama Pemilik</p>
+                                        </div>
+                                        <div class="cashless-item">
+                                            <img src="assets/BankNegaraIndonesia46-logo.svg" alt="BNI">
+                                            <p>1234567890<br>a.n Nama Pemilik</p>
+                                        </div>
+                                    </div>
+
+                                    <div id="offline" style="display: none; margin-top:10px;">
+                                        <p>Silakan bawa hadiah langsung ke venue acara.</p>
+                                        <p>Terima kasih</p>
+                                    </div>
+                                </div>
+
+                                <script src="script/toggle-gift.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-container" id="thanks">
+                <div class="content-main-wrap">
+                    <div class="content-main">
+                        <div class="hearts-container"></div>
+                        <div class="content-inside">
+                            <div class="information" style="display: flex; align-items: center; min-height: 100vh;">
+                                <p style="font-size: 40px;">I hope to see you there!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="image-navbar hidden" id="image-navbar">
+            <a href="#opening" class="nav-link" data-section="opening">
+                <img src="assets/🦆 icon _home_.svg" alt="Quote" class="nav-icon"
+                data-icon="assets/🦆 icon _home_.svg"
+                data-icon-active="assets/🦆 icon _home_active.svg"/>
+            </a>
+
+            <a href="#profile" class="nav-link" data-section="profile">
+                <img src="assets/PersonFill.svg" alt="Pengantin" class="nav-icon"
+                data-icon="assets/PersonFill.svg"
+                data-icon-active="assets/PersonFill_active.svg"/>
+            </a>
+        
+            <a href="#event" class="nav-link" data-section="event">
+                <img src="assets/CalendarOutline.svg" alt="Acara" class="nav-icon"
+                data-icon="assets/CalendarOutline.svg"
+                data-icon-active="assets/CalendarOutline_active.svg"/>
+            </a>
+
+            <a href="#maps" class="nav-link" data-section="maps">
+                <img src="assets/LocationMarker.svg" alt="Lokasi" class="nav-icon"
+                data-icon="assets/LocationMarker.svg"
+                data-icon-active="assets/LocationMarker_active.svg"/>
+            </a>
+
+            <a href="#gallery" class="nav-link" data-section="gallery">
+                <img src="assets/🦆 icon _camera_.svg" alt="Galeri" class="nav-icon"
+                data-icon="assets/🦆 icon _camera_.svg"
+                data-icon-active="assets/🦆 icon _camera_active.svg"/>
+            </a>
+
+            <a href="#rsvp" class="nav-link" data-section="rsvp">
+                <img src="assets/Group 9.svg" alt="RSVP" class="nav-icon"
+                data-icon="assets/Group 9.svg"
+                data-icon-active="assets/Group 10_active.svg"/>
+            </a>
+
+            <a href="#thanks" class="nav-link" data-section="thanks">
+                <img src="assets/🦆 icon _bookmark_.svg" alt="Penutup" class="nav-icon"
+                data-icon="assets/🦆 icon _bookmark_.svg"
+                data-icon-active="assets/🦆 icon _bookmark_active.svg"/>
+            </a>
+        </nav>
+
+        <script src="script/nav.js"></script>
+
+        <div class="leftBtn">
+            <div class="music-player hidden">
+                <audio id="audio" src="music/Music_placeholder.mp3" loop></audio>
+                <button class="btnFunction" id="playPauseBtn" onclick="togglePlay()">⏸️</button>
+                <script src="script/music.js"></script>
+            </div>
+
+            <div class="dark-light-mode">
+                <button class="btnFunction" id="darkModeToggle">🍫</button>
+                <script src="script/darkmode.js"></script>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="rsvpModal" class="modal">
+        <div id="rsvpTable"></div>
+        <div class="modal-content" id="rsvpContent"></div>
+    </div>
+
+    <script src="script/rsvp-modal.js"></script>
+
+    <div id="myModal" class="modal">
+        <img class="modal-content" id="img01">
+    </div>
+
+    <script src="script/modal-img.js"></script>
+
+    <script src="script/love.js"></script>
+
+</body>
+</html>
+
