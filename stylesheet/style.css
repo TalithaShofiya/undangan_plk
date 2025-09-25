@@ -387,7 +387,7 @@ span {
     flex-direction: column;
     margin: 20px auto;
     gap: 5px;
-    left: 3%;
+    left: 8%;
 }
 
 .btnFunction {
@@ -501,4 +501,5 @@ span {
     .date span:nth-child(2) {
         font-size: 35px;
     }
+
 }
